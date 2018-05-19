@@ -1,10 +1,8 @@
-// /* ripped from https://web.archive.org/web/20070226174322cs_/http://www.thelegendofdragoon.net:80/style.css */
 body {
   background-color: #000;
   color: #ffffff;
   margin: 0;
   font-family: times;
-  //font-size: 14px;
 
   scrollbar-face-color: #58BC60;
   scrollbar-shadow-color: #267626;
@@ -13,6 +11,20 @@ body {
   scrollbar-darkshadow-color: #267626;
   scrollbar-track-color: #C0FFC0;
   scrollbar-arrow-color: #267626;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* downsized for proper accessibility, might need to limit to just homepage (investigate subpages) */
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: normal;
 }
 
 table  {
