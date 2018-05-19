@@ -13,6 +13,7 @@ express()
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
+  .get('/robots.txt', (req, res) => res.sendfile('views/pages/robots.txt'))
 
 
   // .get('/cool', (req, res) => res.send(cool()))
