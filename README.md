@@ -2,3 +2,4 @@
 
 # FIXME
 - voiceslyrics table
+- translations table
