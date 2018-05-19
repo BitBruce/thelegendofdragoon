@@ -28,6 +28,6 @@ express()
   // .use('/matrix', matrix)
 
 
-  .use(errorHandler)
-  .get('*', (req, res) => res.render('pages/notfound'))
+  // .use(errorHandler)
+  // .get('*', (req, res) => res.render('pages/notfound'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`));
