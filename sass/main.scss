@@ -4,6 +4,7 @@ body {
   color: #ffffff;
   margin: 0;
   font-family: times;
+  //font-size: 14px;
 
   scrollbar-face-color: #58BC60;
   scrollbar-shadow-color: #267626;
@@ -46,35 +47,24 @@ div#sidenav {
 //  margin-right:185px;
 //}
 
-div.nav {
-  font-size:12px;
-}
-
-
-div.newsdescrip {
-  font-size:12px;
-}
-
-
-div.newssubject {
-  font-size:14px;
-}
-
-
-div.newsdate {
-  font-size:14px;
-  color:#000000;
-}
+//div.newsdescrip {
+//  font-size:12px;
+//}
+//
+//
+//div.newssubject {
+//  font-size:14px;
+//}
+//
+//
+//div.newsdate {
+//  font-size:14px;
+//  color:#000000;
+//}
 
 a {
   text-decoration:none;
   color: darkred;
-  font-family:arial;
-}
-
-a:visited {
-  text-decoration:none;
-  color:#ffffff;
 }
 
 a:hover {
