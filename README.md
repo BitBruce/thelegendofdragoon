@@ -8,6 +8,7 @@
 - change titles for each page
 - reduce font size on paragraphs? (for gamehelp pages mostly)
 - re-add underline to h1 on all pages
+- clean up gamehelp pages
 
 # FIXME
 - tables on pages (replace p center and more)
