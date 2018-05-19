@@ -1,22 +1,46 @@
+<!DOCTYPE html>
 <html>
 <head>
     <% include ../partials/header.ejs %>
 </head>
 <body>
-<% include ../partials/nav.ejs %>
-<div class="cover-container d-flex h-100 p-3 mx-auto flex-column text-center">
-    <div class="mb-auto"></div>
-    <main role="main" class="inner cover">
-        <div class="container">
-            <h1 class="cover-heading">Error</h1>
-            <p class="lead"><%- error %></p>
-            <p class="lead">
-                <a href="/" class="btn btn-lg btn-secondary">Home</a>
-            </p>
-        </div>
-    </main>
-    <div class="mb-auto"></div>
+
+<% try { %>
+
+<% include ../partials/layout-start.ejs %>
+<div class="center">
+    <h1>Error</h1>
+    <h2></h2>
 </div>
+<% include ../partials/layout-end.ejs %>
+
+<% } catch(error) { %>
+
+<% } %>
 
 </body>
 </html>
+
+
+<!--<html>-->
+<!--<head>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="cover-container d-flex h-100 p-3 mx-auto flex-column text-center">-->
+    <!--<div class="mb-auto"></div>-->
+    <!--<main role="main" class="inner cover">-->
+        <!--<div class="container">-->
+            <!--<h1 class="cover-heading">Error</h1>-->
+            <!--<p class="lead"><%- error %></p>-->
+            <!--<p class="lead">-->
+                <!--<a href="/" class="btn btn-lg btn-secondary">Home</a>-->
+            <!--</p>-->
+        <!--</div>-->
+    <!--</main>-->
+    <!--<div class="mb-auto"></div>-->
+<!--</div>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
