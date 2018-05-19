@@ -1,121 +1,73 @@
 // /* ripped from https://web.archive.org/web/20070226174322cs_/http://www.thelegendofdragoon.net:80/style.css */
-// div.popdiv
-//     {
-//     border:1px solid #333333;
-//     border-collapse:collapse;
-//     background:#222222;
-//     width:185;
-//     margin-right:185;
-//     }
-//
-// div.nav
-//     {
-//
-//     font-family:times;
-//     font-size:12px;
-//
-//     }
-//
-//
-// div.newsdescrip
-//     {
-//
-//     font-family:times;
-//
-//     font-size:12px;
-//
-//     }
-//
-//
-// div.newssubject
-//     {
-//
-//     font-family:times;
-//
-//     font-size:14px;
-//
-//     }
-//
-//
-// div.newsdate
-//     {
-//
-//     font-family:times;
-//
-// font-size:14px;
-//
-// color:#000000;
-//
-// }
-//
-//
-// body
-//     {
-//
-//     scrollbar-face-color: #58BC60;
-//
-//     scrollbar-shadow-color: #267626;
-//
-//     scrollbar-3dlight-color: #58AA58;
-//
-//     scrollbar-highlight-color: #58AA58;
-//
-//     scrollbar-darkshadow-color: #267626;
-//
-//     scrollbar-track-color: #C0FFC0;
-//
-//     scrollbar-arrow-color: #267626;
-//     color: #ffffff;
-//     }
-//
-//
-// A
-//     {
-//
-//     text-decoration:none;
-//
-//     color:#ffffff;
-//
-//     font-family:arial;
-//
-// font-size:12px;
-//     }
-//
-//
-// A:link
-//     {
-//
-//     text-decoration:none;
-//
-//     color:#ffffff;
-//
-//     font-family:arial;
-//
-// font-size:12px;
-//     }
-//
-//
-// A:visited
-//     {
-//
-//     text-decoration:none;
-//
-//     color:#ffffff;
-//
-//     font-family:arial;
-//
-// font-size:12px;
-//     }
-//
-//
-// A:hover
-//     {
-//
-//     text-decoration:none;
-//
-//     color:#c7b297;
-//
-//     font-family:arial;
-//
-// font-size:12px;
-//     }
+body {
+  background-color: #000;
+  color: #ffffff;
+  margin: 0;
+  font-family: times;
+
+  scrollbar-face-color: #58BC60;
+  scrollbar-shadow-color: #267626;
+  scrollbar-3dlight-color: #58AA58;
+  scrollbar-highlight-color: #58AA58;
+  scrollbar-darkshadow-color: #267626;
+  scrollbar-track-color: #C0FFC0;
+  scrollbar-arrow-color: #267626;
+}
+
+table  {
+  border-spacing: 0;
+}
+
+td {
+  border-spacing: 0;
+  display: inline-block;
+}
+
+div.container {
+  //margin: auto;
+  //display: table;
+}
+
+div.popdiv {
+  border:1px solid #333333;
+  border-collapse:collapse;
+  background:#222222;
+  width:185px;
+  margin-right:185px;
+}
+
+div.nav {
+  font-size:12px;
+}
+
+
+div.newsdescrip {
+  font-size:12px;
+}
+
+
+div.newssubject {
+  font-size:14px;
+}
+
+
+div.newsdate {
+  font-size:14px;
+  color:#000000;
+}
+
+a {
+  text-decoration:none;
+  color: darkred;
+  font-family:arial;
+}
+
+a:visited {
+  text-decoration:none;
+  color:#ffffff;
+}
+
+a:hover {
+  text-decoration:none;
+  color:#c7b297;
+}
