@@ -1,5 +1,4 @@
 # TODO
 
 # FIXME
-- voiceslyrics table
-- translations table
+- tables on pages (replace p center and more)
