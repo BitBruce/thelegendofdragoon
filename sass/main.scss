@@ -81,10 +81,22 @@ div#sidenav {
 
 .container {
   display: flex;
+
+  &.bio {
+    margin: 8px 0;
+  }
 }
 
 .item {
   margin: auto;
+
+  &.bio {
+    margin: 6px;
+
+    & > p:first-child {
+      margin: 0;
+    }
+  }
 }
 
 //div.popdiv {
