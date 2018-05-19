@@ -1,0 +1,8 @@
+{
+  "name": "The Legend of Dragoon: Endiness, the Land of Dragoons!",
+  "description": "A hub of info for The Legend of Dragoon, ripped from thelegendofdragoon.net",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include ../partials/header.ejs %>
+</head>
+<body>
+
+    <% try { %>
+
+    <%- include(page) %>
+
+    <% } catch(error) { %>
+
+    <% include ../partials/nav.ejs %>
+    
+    <% } %>
+
+    <!-- <script>window.location.replace("/example");</script> -->
+
+</body>
+</html>
