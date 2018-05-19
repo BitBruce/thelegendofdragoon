@@ -7,13 +7,13 @@
 
     <% try { %>
 
+    <% include ../partials/layout-start.ejs %>
     <%- include(page) %>
+    <% include ../partials/layout-end.ejs %>
 
     <% } catch(error) { %>
     
     <% } %>
-
-    <!-- <script>window.location.replace("/example");</script> -->
 
 </body>
 </html>
