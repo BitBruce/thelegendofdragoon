@@ -3,6 +3,7 @@ const path = require('path');
 const PORT = process.env.PORT || 5000;
 
 const subpager = require('./controllers/subpager');
+const printables = require('./controllers/printables');
 
 function errorHandler (err, req, res, next) {
   res.render('pages/error', {error:err});
@@ -18,13 +19,14 @@ express()
   .use('/story', subpager)
   .use('/characters', subpager)
   .use('/game-help', subpager)
-  .use('/printables', subpager)
+  .use('/printables', printables)
   .use('/media', subpager)
   .use('/etc', subpager)
   .use(errorHandler)
   .get('*', (req, res) => res.render('pages/notfound'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`));
 
+// .use('/', subpager)
 // .get('/introduction', (req, res) => res.render('subpages/introduction'))
 // .get('/story/prologue', (req, res) => res.render('subpages/prologue'))
 // .get('/story/chapter1', (req, res) => res.render('subpages/chapter1'))
