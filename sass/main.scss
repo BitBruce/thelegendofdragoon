@@ -28,13 +28,23 @@ div.container {
   //display: table;
 }
 
-div.popdiv {
-  border:1px solid #333333;
-  border-collapse:collapse;
-  background:#222222;
-  width:185px;
-  margin-right:185px;
+div#sidenav {
+  display: grid;
+
+  & > div {
+    margin: 0;
+    padding: 0;
+    height: 28px;
+  }
 }
+
+//div.popdiv {
+//  border:1px solid #333333;
+//  border-collapse:collapse;
+//  background:#222222;
+//  width:185px;
+//  margin-right:185px;
+//}
 
 div.nav {
   font-size:12px;
