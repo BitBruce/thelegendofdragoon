@@ -40,16 +40,12 @@ p {
 
 table  {
   border-spacing: 0;
+  border-collapse: collapse;
 }
 
 td {
   border-spacing: 0;
   display: inline-block;
-}
-
-div.container {
-  //margin: auto;
-  //display: table;
 }
 
 div.condensed {
@@ -81,6 +77,14 @@ div#sidenav {
 
 .center {
   text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  margin: auto;
 }
 
 //div.popdiv {
