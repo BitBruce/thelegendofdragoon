@@ -9,3 +9,7 @@
 # FIXME
 - tables on pages
 - "tables" on fighting page
+
+# ADD
+- https://legendofdragoonhardmode.wordpress.com/
+- 

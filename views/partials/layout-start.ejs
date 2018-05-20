@@ -1,52 +1,3 @@
-<head>
-<script>
-  var menuArray = [];
-
-  menuArray[0] = [];
-  menuArray[0]['text'] = ["Home", "Introduction"];
-  menuArray[0]['links'] = ["https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/introduction.shtml"];
-  menuArray[0]['img'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/introbutton.jpg"
-  menuArray[0]['alt'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/introbutton2.jpg"
-  menuArray[1] = [];
-  menuArray[1]['text'] = ["Prologue", "Chapter 1: Serdian War", "Chapter 2: The Platinum Shadow", "Chapter 3: Fate and Soul", "Chapter 4: Moon and Fate"];
-  menuArray[1]['links'] = ["https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/story/prologue.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/story/chapter1sw.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/story/chapter2ps.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/story/chapter3fs.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/story/chapter4mf.shtml"];
-  menuArray[1]['img'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/storybutton.jpg"
-  menuArray[1]['alt'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/storybutton2.jpg"
-  menuArray[2] = [];
-  menuArray[2]['text'] = ["Main Characters", "Other Characters"];
-  menuArray[2]['links'] = ["https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/characters/main.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/characters/other.shtml"];
-  menuArray[2]['img'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/charactersbutton.jpg"
-  menuArray[2]['alt'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/charactersbutton2.jpg"
-  menuArray[3] = [];
-  menuArray[3]['text'] = ["Abnormalities", "Accessories", "Additions", "Art of Fighting", "Enemies", "Experience", "Items", "Item Locations", "Shopping", "Sidequests", "Special Items", "Stardust", "Stardust Picture Guide", "Team/Stat Evaluation", "Weapons/Armor", "Walkthrough"];
-  menuArray[3]['links'] = ["https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/abnormalities.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/accessories.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/additions.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/fighting.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/enemies.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/experience.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/items.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/itemlocations.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/shopping.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/sidequests.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/specialitems.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/stardust.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/stardustpictureguide.shtml",
-    "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/teamstat.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/weaponsarmor.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelp/walkthrough.shtml"];
-  menuArray[3]['img'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelpbutton.jpg"
-  menuArray[3]['alt'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/gamehelpbutton2.jpg"
-  menuArray[4] = [];
-  menuArray[4]['text'] = ["Abnormalities", "Accessories", "Additions", "Art of Fighting", "Enemies", "Experience", "Items", "Item Locations", "Shopping", "Sidequests", "Special Items", "Stardust", "Stardust Picture Guide", "Team/Stat Evaluation", "Weapons/Armor", "Walkthrough"];
-  menuArray[4]['links'] = ["https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/abnormalities.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/accessories.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/additions.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/fighting.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/enemies.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/experience.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/items.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/itemlocations.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/shopping.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/sidequests.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/specialitems.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/stardust.html",
-    "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/stardustpictureguide.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/teamstat.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/weaponsarmor.html", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printables/walkthrough.html"];
-  menuArray[4]['img'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printablesbutton.jpg"
-  menuArray[4]['alt'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/printablesbutton2.jpg"
-  menuArray[5] = [];
-  menuArray[5]['text'] = ["MIDIs", "MP3s", "Videos", "Voice Clips"];
-  menuArray[5]['links'] = ["https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/media/midis.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/media/mp3s.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/media/videos.shtml", "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/media/voiceclips.shtml"];
-  menuArray[5]['img'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/mediabutton.jpg"
-  menuArray[5]['alt'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/mediabutton2.jpg"
-  menuArray[6] = [];
-  menuArray[6]['text'] = ["Contact", "Gallery", "Links In/Out", "Notes", "Voices/Lyrics", "Translations"];
-  menuArray[6]['links'] = ["https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/etc/contact.shtml",
-    "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/etc/imagegallery.shtml",
-    "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/etc/links.shtml",
-    "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/etc/notes.shtml",
-    "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/etc/voiceslyrics.shtml",
-    "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/etc/translations.shtml"];
-  menuArray[6]['img'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/etcbutton.jpg"
-  menuArray[6]['alt'] = "https://web.archive.org/web/20150225020805/http://www.thelegendofdragoon.net/etcbutton2.jpg"
-</script>
-</head>
-
 <table border="0" cellpadding="0" cellspacing="0" width="900px" height="700px">
 
     <tr>
@@ -67,25 +18,25 @@
 
     <tr>
         <td valign="top">
-            <div id="sidenav"> <!-- TODO: Actual nav w/ hover, with alternate images for color highlighting -->
+            <div id="sidenav" name="menuDiv" class="menudiv">
                 <img src="/assets/buttontop.jpg">
-                <div><a id="myIMG" href=""><img src="/assets/introbutton.jpg"></a></div>
+                <div id="menu0" class="navitem"><img id="image0" src="/assets/introbutton.jpg" onmouseover="if(menuActive==true){showMenu(0);MouseOver(this, 0);}" onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 0);}else{menuActive=true;showMenu(0);MouseOver(this, 0);}" onmouseout="if(menuActive==true){MouseOut(this, 0);}"></div>
                 <img src="/assets/spacer.jpg">
-                <div><a href=""><img src="/assets/storybutton.jpg"></a></div>
+                <div id="menu1" class="navitem"><img id="image1" src="/assets/storybutton.jpg" onmouseover="if(menuActive==true){showMenu(1);MouseOver(this, 1);}" onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 1);}else{menuActive=true;showMenu(1);MouseOver(this, 1);}" onmouseout="if(menuActive==true){MouseOut(this, 1);}"></div>
                 <img src="/assets/spacer.jpg">
-                <div><a href=""><img src="/assets/charactersbutton.jpg"></a></div>
+                <div id="menu2" class="navitem"><img id="image2" src="/assets/charactersbutton.jpg" onmouseover="if(menuActive==true){showMenu(2);MouseOver(this, 2);}" onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 2);}else{menuActive=true;showMenu(2);MouseOver(this, 2);}" onmouseout="if(menuActive==true){MouseOut(this, 2);}"></div>
                 <img src="/assets/spacer.jpg">
-                <div><a href=""><img src="/assets/gamehelpbutton.jpg"></a></div>
+                <div id="menu3" class="navitem"><img id="image3" src="/assets/gamehelpbutton.jpg" onmouseover="if(menuActive==true){showMenu(3);MouseOver(this, 3);}" onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 3);}else{menuActive=true;showMenu(3);MouseOver(this, 3);}" onmouseout="if(menuActive==true){MouseOut(this, 3);}"></div>
                 <img src="/assets/spacer.jpg">
-                <div><a href=""><img src="/assets/printablesbutton.jpg"></a></div>
+                <div id="menu4" class="navitem"><img id="image4" src="/assets/printablesbutton.jpg" onmouseover="if(menuActive==true){showMenu(4);MouseOver(this, 4);}" onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 4);}else{menuActive=true;showMenu(4);MouseOver(this, 4);}" onmouseout="if(menuActive==true){MouseOut(this, 4);}"></div>
                 <img src="/assets/spacer.jpg">
-                <div><a href=""><img src="/assets/mediabutton.jpg"></a></div>
+                <div id="menu5" class="navitem"><img id="image5" src="/assets/mediabutton.jpg" onmouseover="if(menuActive==true){showMenu(5);MouseOver(this, 5);}" onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 5);}else{menuActive=true;showMenu(5);MouseOver(this, 5);}" onmouseout="if(menuActive==true){MouseOut(this, 5);}"></div>
                 <img src="/assets/spacer.jpg">
-                <div style="border-bottom: 1px black solid"><a href=""><img src="/assets/etcbutton.jpg"></a></div>
+                <div id="menu6" class="navitem"><img id="image6" src="/assets/etcbutton.jpg" onmouseover="if(menuActive==true){showMenu(6);MouseOver(this, 6);}" onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 6);}else{menuActive=true;showMenu(6);MouseOver(this, 6);}" onmouseout="if(menuActive==true){MouseOut(this, 6);}"></div>
+                <div id="popNav" class="popnav" border="60" style="position:absolute"></div>
                 <img src="/assets/buttonbottom.jpg">
             </div>
         </td>
-        <td width="82px" valign="top">
-            <img name="splitter5" src="/assets/splitter_3x2.jpg" border="0">
-        </td>
-        <td width="638px" valign="top">
+        <td rowspan="1" colspan="1" width="82" height="468" valign="top">
+            <img name="splitter5" src="/assets/splitter_3x2.jpg" width="82" height="468" border="0"></td>
+        <td rowspan="1" colspan="1" width="638" height="468" background="/web/20150224163944im_/http://www.thelegendofdragoon.net:80/bg.jpg" valign="top">

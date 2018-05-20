@@ -63,11 +63,28 @@ div.condensed {
 
 div#sidenav {
   display: grid;
+}
 
-  & > div {
-    margin: 0;
-    padding: 0;
-    height: 28px;
+div.navitem {
+  margin: 0;
+  padding: 0;
+  height: 28px;
+}
+
+div.popnav {
+  border:1px solid #333;
+  border-collapse:collapse;
+  background:#222;
+  width:185px;
+  display: none;
+  line-height: 12px;
+  & a {
+    font-family: arial;
+    font-size: 12px;
+    color: #fff;
+    &:hover {
+      color: #c7b297;
+    }
   }
 }
 
@@ -102,26 +119,3 @@ div#sidenav {
     }
   }
 }
-
-//div.popdiv {
-//  border:1px solid #333333;
-//  border-collapse:collapse;
-//  background:#222222;
-//  width:185px;
-//  margin-right:185px;
-//}
-
-//div.newsdescrip {
-//  font-size:12px;
-//}
-//
-//
-//div.newssubject {
-//  font-size:14px;
-//}
-//
-//
-//div.newsdate {
-//  font-size:14px;
-//  color:#000000;
-//}

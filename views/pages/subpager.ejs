@@ -5,21 +5,16 @@
 </head>
 <body>
 
-    <% try { %>
+<% include ../partials/layout-start.ejs %>
 
-    <% include ../partials/layout-start.ejs %>
-    <%- include(page) %>
-    <% include ../partials/layout-end.ejs %>
+<% try { %>
+<%- include(page) %>
+<% } catch(error) { %>
+<script>window.location.replace("/");</script>
+<% } %>
 
-    <% } catch(error) { %>
-
-    <!--<div class="center">-->
-        <!--<h1>Error 404</h1>-->
-        <!--<h2>Not Found</h2>-->
-    <!--</div>-->
-    <script>window.location.replace("/");</script>
-
-    <% } %>
+<% include ../partials/layout-end.ejs %>
+<% include ../partials/footer.ejs %>
 
 </body>
 </html>
