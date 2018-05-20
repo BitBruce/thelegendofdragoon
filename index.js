@@ -22,6 +22,7 @@ express()
   .use('/printables', printables)
   .use('/media', subpager)
   .use('/etc', subpager)
+  .use('/scripts', subpager)
   .use(errorHandler)
   .get('*', (req, res) => res.render('pages/notfound'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`));
