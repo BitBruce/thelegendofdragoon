@@ -1,5 +1,4 @@
 /* Sidenav */
-num = 7;
 let menuActive = false;
 let menuArray = [];
 
@@ -46,8 +45,7 @@ menuArray[6]['links'] = ["/etc/contact",
 menuArray[6]['img'] = "/assets/etcbutton.jpg";
 menuArray[6]['alt'] = "/assets/etcbutton2.jpg";
 
-function showMenu(menuNumber)
-{
+function showMenu(menuNumber) {
   let menuY = 0;
   for(let i=0;i<menuNumber;i++)
     menuY += (document.getElementById("image"+menuNumber).height+10);
@@ -56,8 +54,7 @@ function showMenu(menuNumber)
   menuHeight = 18*(menuArray[menuNumber]['text'].length)+"px";
 
   myContent = "<div>";
-  for(let i=0; i<menuArray[menuNumber]['text'].length; i++)
-  {
+  for(let i=0; i<menuArray[menuNumber]['text'].length; i++) {
     myContent += "<a href='"+menuArray[menuNumber]['links'][i]+"'>";
     myContent += menuArray[menuNumber]['text'][i];
     myContent += "</a><br/>";
@@ -82,3 +79,8 @@ function MouseOver(myImg, imgNum) {
 function MouseOut(myImg, imgNum) {
   myImg.src = menuArray[imgNum]['img'];
 }
+
+// Add head title for each page
+(function() {
+  document.title = document.getElementById("title").innerHTML;
+})();

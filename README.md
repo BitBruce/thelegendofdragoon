@@ -1,7 +1,5 @@
 # TODO
-- side nav menu
 - Stardust picture locations http://web.archive.org/web/20131214135523/http://www.thelegendofdragoon.net:80/gamehelp/stardustpictureguide.shtml
-- change browser tab titles for each page
 - reduce font size on paragraphs? (for gamehelp pages mostly)
 - re-add underline to h1 on all pages
 - clean up gamehelp pages
@@ -13,3 +11,5 @@
 # ADD
 - https://legendofdragoonhardmode.wordpress.com/
 - 
+
+[Webarchive](https://web.archive.org/web/20150224163944/http://www.thelegendofdragoon.net:80/)
