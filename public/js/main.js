@@ -26,8 +26,8 @@ menuArray[3]['img'] = "/assets/gamehelpbutton.jpg";
 menuArray[3]['alt'] = "/assets/gamehelpbutton2.jpg";
 menuArray[4] = [];
 menuArray[4]['text'] = ["Abnormalities", "Accessories", "Additions", "Art of Fighting", "Enemies", "Experience", "Items", "Item Locations", "Shopping", "Sidequests", "Special Items", "Stardust", "Stardust Picture Guide", "Team/Stat Evaluation", "Weapons/Armor", "Walkthrough"];
-menuArray[4]['links'] = ["/printables/abnormalities.html", "/printables/accessories.html", "/printables/additions.html", "/printables/fighting.html", "/printables/enemies.html", "/printables/experience.html", "/printables/items.html", "/printables/itemlocations.html", "/printables/shopping.html", "/printables/sidequests.html", "/printables/specialitems.html", "/printables/stardust.html",
-  "/printables/stardustpictureguide.html", "/printables/teamstat.html", "/printables/weaponsarmor.html", "/printables/walkthrough.html"];
+menuArray[4]['links'] = ["/printables/abnormalities", "/printables/accessories", "/printables/additions", "/printables/fighting", "/printables/enemies", "/printables/experience", "/printables/items", "/printables/itemlocations", "/printables/shopping", "/printables/sidequests", "/printables/specialitems", "/printables/stardust",
+  "/printables/stardustpictureguide", "/printables/teamstat", "/printables/weaponsarmor", "/printables/walkthrough"];
 menuArray[4]['img'] = "/assets/printablesbutton.jpg";
 menuArray[4]['alt'] = "/assets/printablesbutton2.jpg";
 menuArray[5] = [];
