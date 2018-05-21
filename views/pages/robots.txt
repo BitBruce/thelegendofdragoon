@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /contact_us.php
+Disallow: /etc/contact
